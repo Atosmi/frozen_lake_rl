@@ -6,7 +6,7 @@ This repository contains a Jupyter notebook that implements a solution to the Fr
 
 The Frozen Lake problem is a classic reinforcement learning problem where an agent has to navigate a 4x4 grid of tiles that represent either frozen ice (F) or holes (H). The agent starts at the top-left corner (S) and has to reach the bottom-right corner (G) without falling into any holes. The agent can move in four directions: left, right, up, or down. However, the ice is slippery, so the agent may not end up in the intended tile. The agent receives a reward of 1 if it reaches the goal and 0 otherwise.
 
-The problem can be represented as a Markov Decision Process (MDP) with 16 states (one for each tile) and 4 actions (one for each direction). The transition probabilities and rewards are given by the OpenAI Gym environment `FrozenLake-v0`.
+The problem can be represented as a Markov Decision Process (MDP) with 16 states (one for each tile) and 4 actions (one for each direction). The transition probabilities and rewards are given by the OpenAI Gym environment `FrozenLake-v1`.
 
 ## Solution Approach
 
